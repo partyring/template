@@ -1,0 +1,99 @@
+@import "./colours.scss";
+@import "~bootstrap/scss/bootstrap";
+
+$fontCode: 'Courier Prime', monospace;
+$fontMain: 'Gupter', serif;
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: $fontMain;
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: $fontMain;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: $fontMain;
+  font-size: 2rem;
+}
+
+p {
+  font-family: $fontMain;
+}
+
+header {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.navbar-item img {
+  height: 5rem;
+  max-height: none;
+}
+
+.section {
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.splash {
+  display: block;
+  position: relative;
+
+}
+
+.title {
+  padding-top: 5rem;
+}
+
+.splash-img {
+  background-image: url(https://images.unsplash.com/photo-1578355437008-e1057fa764cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80);
+  background-size: cover;
+  min-height: 30rem;
+}
+
+.filler-img {
+  background-image: url(https://images.unsplash.com/photo-1501084817091-a4f3d1d19e07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  min-height: 30rem;
+  background-position: bottom;
+}
+
+.filler-img-2 {
+  background-image: url(https://images.unsplash.com/photo-1567187281352-0c7c36b2c85b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  min-height: 30rem;
+  background-position: bottom;
+}
+
+.map-img {
+  background-size: cover;
+  min-height: 30rem;
+  background-position: center;
+}
+
+.img--icon {
+  width: 3rem;
+}
+
+.codeiful {
+  color: $primary !important;
+  font-size: 0.8rem !important;
+}
+
+.link--codeiful {
+  font-family: 'Calistoga', cursive;
+  color: $primary;
+  text-decoration: none;
+
+  &:hover {
+      color: $primary;
+  }
+}
